@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Request a free website preview from Trilium Web.">
+    <title>Contact | Trilium Web</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body class="interior-page">
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html"><span class="brand-mark">T</span><span>Trilium Web</span></a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle><span></span><span></span></button>
+      <nav class="site-nav" data-nav>
+        <a href="process.html">How it works</a>
+        <a href="pricing.html">Plans</a>
+        <a href="work.html">Work</a>
+        <a class="nav-cta" href="contact.html" aria-current="page">Get a preview</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">Contact</p>
+        <h1>Request a free website preview.</h1>
+        <p>Send a few business details and Trilium Web will prepare a polished starting point for your new website.</p>
+      </section>
+
+      <section class="section contact-layout">
+        <form class="contact-form" action="https://formsubmit.co/hello@triliumweb.com" method="POST">
+          <input type="hidden" name="_subject" value="New Trilium Web preview request">
+          <input type="hidden" name="_next" value="https://triliumweb.com/thanks.html">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+          <label>
+            Your name
+            <input name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>
+            Phone number
+            <input type="tel" name="phone" autocomplete="tel">
+          </label>
+          <label>
+            Business name
+            <input name="business" required>
+          </label>
+          <label>
+            Current website, if any
+            <input name="website" inputmode="url" placeholder="https://">
+          </label>
+          <label>
+            What should your website include?
+            <textarea name="message" rows="6" placeholder="Services, city, phone number, hours, preferred style, and anything customers ask most often."></textarea>
+          </label>
+          <p class="form-note">Your request is sent securely to Trilium Web. You will not be added to a mailing list.</p>
+          <button class="button primary" type="submit">Send preview request</button>
+        </form>
+        <aside class="contact-panel">
+          <h2>Helpful details</h2>
+          <p>For the fastest preview, include your business name, phone number, service area, main services, current website or social page, and preferred way for customers to request a quote.</p>
+          <div class="contact-method">
+            <span>Email</span>
+            <a href="mailto:hello@triliumweb.com">hello@triliumweb.com</a>
+          </div>
+          <div class="contact-method">
+            <span>Website</span>
+            <a href="https://triliumweb.com">triliumweb.com</a>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">T</span><span>Trilium Web</span></a><p>Fast websites, hosting, and personal maintenance support for trades businesses.</p></div>
+      <nav aria-label="Footer"><a href="process.html">How it works</a><a href="pricing.html">Plans</a><a href="work.html">Work</a><a href="contact.html">Contact</a></nav>
+    </footer>
+    <script src="assets/site.js"></script>
+  </body>
+</html>
