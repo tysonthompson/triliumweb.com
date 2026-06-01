@@ -70,6 +70,15 @@ a {
   letter-spacing: 0;
 }
 
+.brand-logo {
+  display: block;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(17, 28, 22, 0.16);
+}
+
 .brand-mark {
   display: grid;
   width: 36px;
