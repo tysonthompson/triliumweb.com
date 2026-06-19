@@ -192,6 +192,10 @@ a {
   color: #91f0bf;
 }
 
+.hero-eyebrow {
+  font-size: 0.72rem;
+}
+
 h1,
 h2,
 h3,
@@ -211,6 +215,11 @@ h1 {
   max-width: 850px;
   margin-bottom: 22px;
   font-size: clamp(3rem, 7vw, 6.9rem);
+}
+
+.hero-title {
+  max-width: 760px;
+  font-size: clamp(2.4rem, 5.4vw, 5.1rem);
 }
 
 h2 {
