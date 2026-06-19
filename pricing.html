@@ -44,7 +44,7 @@
             <li>One-month trial period beginning once the website is launched</li>
             <li>Website updates available for $40 per request</li>
           </ul>
-          <a class="button secondary full" href="contact.html">Start at $15/mo</a>
+          <button class="button secondary full" type="button" data-plan-checkout data-plan-name="Essentials" data-checkout-url="https://buy.stripe.com/3cI5kEgFHcl60wC7pi6g804">Start at $15/mo</button>
         </article>
         <article class="price-card featured">
           <p class="plan-label">Growth Plan</p>
@@ -58,13 +58,68 @@
             <li>Service and service-area pages</li>
             <li>Contact and quote request forms</li>
             <li>Website hosting and ongoing maintenance</li>
-            <li>One website update included each month</li>
             <li>One-month trial period beginning once the website is launched</li>
+            <li>One website update included each month</li>
             <li>Additional updates available for $40 per request</li>
           </ul>
-          <a class="button primary full" href="contact.html">Start at $25/mo</a>
+          <button class="button primary full" type="button" data-plan-checkout data-plan-name="Growth" data-checkout-url="https://buy.stripe.com/fZu28sahjfxi7Z410U6g805">Start at $25/mo</button>
         </article>
       </section>
+
+      <div class="terms-modal" data-terms-modal hidden>
+        <div class="terms-backdrop" data-terms-close></div>
+        <section class="terms-dialog" role="dialog" aria-modal="true" aria-labelledby="terms-title" aria-describedby="terms-summary">
+          <button class="terms-close" type="button" aria-label="Close agreement" data-terms-close>&times;</button>
+          <p class="eyebrow">Agreement</p>
+          <h2 id="terms-title">Trillium Web Terms of Service</h2>
+          <p id="terms-summary" class="terms-summary">Review and accept these terms to continue to secure checkout for the <span data-selected-plan>selected</span> plan.</p>
+          <div class="terms-copy" tabindex="0">
+            <p><strong>Last Updated: June 19th, 2026</strong></p>
+            <p>By purchasing a website plan or using our services, you agree to the following Terms of Service.</p>
+            <h3>1. Services</h3>
+            <p>Trillium Web provides website design, website hosting, website maintenance, and related website support services.</p>
+            <p>The specific services provided depend on the plan selected by the customer.</p>
+            <h3>2. Trial Period</h3>
+            <p>New customers receive a one-month (30 days) trial period beginning on the date that the customer signs up.</p>
+            <p>Customers may cancel during the trial period without further obligation.</p>
+            <h3>3. Payment</h3>
+            <p>Monthly subscription fees are billed in advance and continue until cancelled.</p>
+            <p>Current pricing is displayed on our website and may be updated from time to time. Existing customers will be notified in advance of any pricing changes.</p>
+            <p>Failure to make payment may result in suspension or removal of website services.</p>
+            <h3>4. Website Updates</h3>
+            <p>Customers subscribed to the Essentials Plan may request website updates for the posted update fee.</p>
+            <p>Customers subscribed to the Growth Plan receive one website update request per month. Additional update requests are billed at the posted update fee.</p>
+            <p>Trillium Web reserves the right to determine whether a request constitutes a minor update or a larger project requiring a separate quotation.</p>
+            <h3>5. Customer Content</h3>
+            <p>The customer is responsible for providing accurate business information, images, logos, contact details, and any other content required to build the website.</p>
+            <p>The customer confirms that they have the necessary rights and permissions to use any content submitted to Trillium Web.</p>
+            <h3>6. Ownership</h3>
+            <p>The customer retains ownership of all business information, logos, photographs, and other content supplied by the customer.</p>
+            <p>Trillium Web retains ownership of its website templates, design systems, code, processes, and proprietary materials used in providing the service.</p>
+            <h3>7. Hosting and Maintenance</h3>
+            <p>Trillium Web will make reasonable efforts to maintain website availability and functionality.</p>
+            <p>However, uninterrupted service cannot be guaranteed. Temporary interruptions may occur due to maintenance, software updates, third-party service outages, or circumstances beyond our control.</p>
+            <h3>8. Cancellation</h3>
+            <p>Customers may cancel their subscription at any time by providing written notice via email.</p>
+            <p>Website service will remain active until the end of the current billing period.</p>
+            <p>Upon cancellation, website hosting and maintenance services will cease.</p>
+            <h3>9. Limitation of Liability</h3>
+            <p>To the maximum extent permitted by law, Trillium Web shall not be liable for any indirect, incidental, special, consequential, or business-related damages, including lost profits, lost revenue, loss of business opportunities, or website downtime.</p>
+            <p>The total liability of Trillium Web shall not exceed the amount paid by the customer during the previous twelve months.</p>
+            <h3>10. Changes to These Terms</h3>
+            <p>Trillium Web may update these Terms of Service from time to time. Updated versions will be posted on our website.</p>
+            <p>Continued use of our services after changes are posted constitutes acceptance of the revised terms.</p>
+            <h3>11. Contact</h3>
+            <p>Questions regarding these Terms of Service may be directed to:</p>
+            <p>Trillium Web<br>Email: support@trilliumweb.com<br>Website: TrilliumWeb.com</p>
+          </div>
+          <label class="terms-check">
+            <input type="checkbox" data-terms-accept>
+            <span>I have read and agree to the Trillium Web Terms of Service.</span>
+          </label>
+          <button class="button primary full" type="button" disabled data-terms-continue>Continue to secure checkout</button>
+        </section>
+      </div>
 
     </main>
 
@@ -75,6 +130,4 @@
     <script src="assets/site.js"></script>
   </body>
 </html>
-
-
 
